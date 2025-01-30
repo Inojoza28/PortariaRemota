@@ -1,6 +1,6 @@
 # 🏢 Portaria Remota
 
-![Sistema de Agendamento de Visitas](./src/preview/inicio.png)
+![Sistema de Agendamento de Visitas](./src/preview/Inicio.png)
 
 ## 📖 Sobre o Projeto
 
