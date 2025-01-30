@@ -37,7 +37,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - Os botões de ação (**Editar, Confirmar, Excluir**) só aparecem quando o usuário passa o mouse sobre a linha correspondente.
 - Interface **limpa e organizada** para evitar poluição visual.
 
-![Interação Dinâmica](./src/preview/botoes.png)
+![Interação Dinâmica](./src/preview/Botoes.png)
 
 ---
 
@@ -45,7 +45,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - O botão de **"Confirmar Visita"** só fica disponível **5 minutos antes do horário agendado**.
 - Ao tentar cancelar uma visita, um **modal de confirmação** é exibido para evitar erros acidentais.
 
-![Confirmação de Visitas](./src/preview/botoes02.png)
+![Confirmação de Visitas](./src/preview/Botoes02.png)
 
 ---
 
@@ -53,7 +53,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - O botão de **"Excluir Visita"** só fica disponível após a visita ter sido cancelada ou confirmada, evitando remoções acidentais.  
 - Antes da exclusão definitiva, um **modal de confirmação** é exibido para garantir que o usuário realmente deseja remover a visita.  
 
-![Exclusão de Visitas](./src/preview/botoes03.png)  
+![Exclusão de Visitas](./src/preview/Botoes03.png)  
 
 ---
 
