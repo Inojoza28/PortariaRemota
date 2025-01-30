@@ -1,6 +1,6 @@
 # 🏢 Portaria Remota
 
-![Sistema de Agendamento de Visitas](./preview/inicio.png)
+![Sistema de Agendamento de Visitas](.src/preview/inicio.png)
 
 ## 📖 Sobre o Projeto
 
@@ -20,9 +20,9 @@ Este projeto foi desenvolvido utilizando **React + Vite**, garantindo alto desem
 - **Paginação:** Implementação de paginação para facilitar a visualização de grandes volumes de visitas.  
 - **Otimização de Performance:** Melhorias na eficiência do sistema ao carregar e renderizar os dados de forma otimizada.  
 
-![Header e Footer](./preview/Inicio.png)
-![Header e Footer](./preview/Tabela.png)
-![Header e Footer](./preview/footer.png)
+![Header e Footer](.src/preview/Inicio.png)
+![Header e Footer](.src/preview/Tabela.png)
+![Header e Footer](.src/preview/footer.png)
 
 A **Tabela Principal** é o centro do sistema, onde os usuários podem visualizar todas as visitas agendadas de forma clara e organizada. Ela conta com:  
 
@@ -37,7 +37,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - Os botões de ação (**Editar, Confirmar, Excluir**) só aparecem quando o usuário passa o mouse sobre a linha correspondente.
 - Interface **limpa e organizada** para evitar poluição visual.
 
-![Interação Dinâmica](./preview/botoes.png)
+![Interação Dinâmica](.src/preview/botoes.png)
 
 ---
 
@@ -45,7 +45,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - O botão de **"Confirmar Visita"** só fica disponível **5 minutos antes do horário agendado**.
 - Ao tentar cancelar uma visita, um **modal de confirmação** é exibido para evitar erros acidentais.
 
-![Confirmação de Visitas](./preview/botoes02.png)
+![Confirmação de Visitas](.src/preview/botoes02.png)
 
 ---
 
@@ -53,7 +53,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - O botão de **"Excluir Visita"** só fica disponível após a visita ter sido cancelada ou confirmada, evitando remoções acidentais.  
 - Antes da exclusão definitiva, um **modal de confirmação** é exibido para garantir que o usuário realmente deseja remover a visita.  
 
-![Exclusão de Visitas](./preview/botoes03.png)  
+![Exclusão de Visitas](.src/preview/botoes03.png)  
 
 ---
 
@@ -61,10 +61,10 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - **Adicionar Visita:** Formulário para cadastro de visitas com campos essenciais.
 - **Editar Visita:** Permite a edição de detalhes já cadastrados.
 
-![Gestão de Visitas](./preview/AddVisita.png)
-![Gestão de Visitas](./preview/AddVisitaTable.png)
-![Gestão de Visitas](./preview/EditVisita.png)
-![Gestão de Visitas](./preview/EditVisitaTable.png)
+![Gestão de Visitas](.src/preview/AddVisita.png)
+![Gestão de Visitas](.src/preview/AddVisitaTable.png)
+![Gestão de Visitas](.src/preview/EditVisita.png)
+![Gestão de Visitas](.src/preview/EditVisitaTable.png)
 
 ---
 
@@ -72,7 +72,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - O sistema impede o agendamento de **horários inválidos** ou **datas no passado**.
 - Todas as informações inseridas são validadas para garantir **integridade e precisão dos dados**.
 
-![Validação de Agendamentos](./images/Validacao.png)
+![Validação de Agendamentos](.src/preview/Validacao.png)
 
 ---
 
@@ -81,7 +81,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - Esse modal evita exclusões acidentais, tornando o processo mais seguro e confiável.  
 - O usuário pode optar por **cancelar a ação** ou **confirmar a exclusão**.  
 
-![Modal de Confirmação da Exclusão](./preview/ModalConfirmacao.png)  
+![Modal de Confirmação da Exclusão](.src/preview/ModalConfirmacao.png)  
 
 ---
 
@@ -89,7 +89,7 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 - Após a exclusão de uma visita, o sistema exibe um **feedback visual e textual** para informar o usuário sobre a ação realizada com sucesso.  
 - Essa notificação pode ser exibida como um **alerta na tela** ou um **toast de sucesso**, garantindo uma experiência clara e informativa.  
 
-![Feedback ao Excluir](./preview/Notification.png)  
+![Feedback ao Excluir](.src/preview/Notification.png)  
 
 ---
 
