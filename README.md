@@ -83,8 +83,8 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 
 ---
 
-### 📌 **8. Feedback ao Excluir um Usuário**  
-- Após a exclusão de uma visita, o sistema exibe um **feedback visual e textual** para informar o usuário sobre a ação realizada com sucesso.  
+### 📌 **8. Feedback ao Cancelar uma Visita**  
+- Após o cancelamento de uma visita, o sistema exibe um **feedback visual e textual** para informar o usuário sobre a ação realizada com sucesso.  
 - Essa notificação pode ser exibida como um **alerta na tela** ou um **toast de sucesso**, garantindo uma experiência clara e informativa.  
 
 ![Feedback ao Excluir](./src/preview/Notification.png)  
