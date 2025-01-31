@@ -109,7 +109,7 @@ Para rodar o projeto localmente, siga as etapas abaixo:
 
 ### 1️⃣ **Clone este repositório**
 ```sh
-git clone https://github.com/seu-usuario/PortariaRemota.git
+git clone https://github.com/inojoza28/PortariaRemota.git
 cd Portaria
 npm install
 npm run dev
