@@ -13,12 +13,12 @@ Este projeto foi desenvolvido utilizando **React + Vite**, garantindo alto desem
 ## 🚀 **Funcionalidades do Sistema**
 
 ### 📌 **1. Header, Footer e Tabela Principal**  
-- **Header:** Contém o logotipo, navegação intuitiva e acesso rápido às principais funcionalidades.  
-- **Footer:** Exibe links úteis, contatos e informações legais.  
-- **Tabela Principal:** Exibe todas as visitas cadastradas de forma organizada, permitindo ações rápidas como edição, cancelamento e confirmação.  
+- **Header:** Contém o logotipo, navegação intuitiva e acesso rápido às principais funcionalidades. 
+- **Tabela Principal:** Exibe todas as visitas cadastradas de forma organizada, permitindo ações rápidas como edição, cancelamento e confirmação. 
 - **Filtros e Pesquisa Avançada:** Filtragem de visitas por status (pendente, confirmada ou cancelada), proporcionando facilidade para encontrar e gerenciar visitas rapidamente.  
 - **Paginação:** Implementação de paginação para facilitar a visualização de grandes volumes de visitas.  
 - **Otimização de Performance:** Melhorias na eficiência do sistema ao carregar e renderizar os dados de forma otimizada.  
+- **Footer:** Exibe links úteis, contatos e informações legais.    
 
 ![Header e Footer](./src/preview/Inicio.png)
 ![Header e Footer](./src/preview/Tabela.png)
@@ -43,7 +43,6 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 
 ### 📌 **3. Confirmação de Visitas**
 - O botão de **"Confirmar Visita"** só fica disponível **5 minutos antes do horário agendado**.
-- Ao tentar cancelar uma visita, um **modal de confirmação** é exibido para evitar erros acidentais.
 
 ![Confirmação de Visitas](./src/preview/Botoes02.png)
 
@@ -51,7 +50,6 @@ A **Tabela Principal** é o centro do sistema, onde os usuários podem visualiza
 
 ### 📌 **4. Exclusão de Visitas**  
 - O botão de **"Excluir Visita"** só fica disponível após a visita ter sido cancelada ou confirmada, evitando remoções acidentais.  
-- Antes da exclusão definitiva, um **modal de confirmação** é exibido para garantir que o usuário realmente deseja remover a visita.  
 
 ![Exclusão de Visitas](./src/preview/Botoes03.png)  
 
